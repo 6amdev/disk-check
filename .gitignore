@@ -1,0 +1,9 @@
+# ข้อมูลจริงของร้าน — ไม่เก็บใน git
+data/
+disks/
+reports/
+config.json
+
+# Python
+__pycache__/
+*.pyc
