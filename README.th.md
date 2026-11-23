@@ -9,6 +9,7 @@
 [![No dependencies](https://img.shields.io/badge/dependencies-stdlib%20only-22c55e)](#ติดตั้งครั้งแรก)
 [![Ubuntu](https://img.shields.io/badge/Ubuntu%20%2F%20Linux-E95420?logo=ubuntu&logoColor=white)](#ติดตั้งครั้งแรก)
 [![Languages](https://img.shields.io/badge/i18n-ไทย%20%7C%20English-7c5cff)](#ภาษา--languages)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 [English](README.md) · **ภาษาไทย**
 
@@ -290,6 +291,10 @@ sudo ufw allow from 192.168.0.0/16 to any port 8080 proto tcp
 - เว็บเปิดในวง LAN และมี PIN อย่าเปิดออกอินเทอร์เน็ต
 - `data/`, `disks/`, `reports/` และ `config.json` ไม่อยู่ใน git — ฐานข้อมูล รูป และ PIN อยู่ในเครื่องเราเท่านั้น สำรองแยกเอง
 - ข้อมูลส่วนตัว (ทุน ผู้ซื้อ ราคาที่ขายได้จริง ประวัติเคลม) อยู่ในฐานข้อมูลอย่างเดียว ไม่ออกไปในรายงาน โพสต์ JSON หรือ ZIP
+
+## 📄 สัญญาอนุญาต
+
+[MIT](LICENSE) — ใช้ แก้ไข และแจกต่อได้ฟรี ไม่มีการรับประกันใดๆ
 
 ---
 

@@ -9,6 +9,7 @@ Plug a drive in, get a graded health report, photos, ready-to-post sales text, a
 [![No dependencies](https://img.shields.io/badge/dependencies-stdlib%20only-22c55e)](#requirements)
 [![Ubuntu](https://img.shields.io/badge/Ubuntu%20%2F%20Linux-E95420?logo=ubuntu&logoColor=white)](#requirements)
 [![Languages](https://img.shields.io/badge/i18n-English%20%7C%20ไทย-7c5cff)](#languages)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 **English** · [ภาษาไทย](README.th.md)
 
@@ -129,6 +130,10 @@ Created automatically on first run (see [`config.example.json`](config.example.j
 - Some USB enclosures hide SMART; the tool tries several bridge modes automatically. If it still can't read, try another enclosure or a direct SATA connection.
 - CRC errors usually mean a bad cable/enclosure, not a bad drive.
 - Use a USB 3 port; USB 2 caps speed at ~35 MB/s. NVMe behind USB 3.0 (5 Gbps) tops out around 400 MB/s — that's normal.
+
+## 📄 License
+
+[MIT](LICENSE) — free to use, modify and share. Provided as-is, without warranty.
 
 ---
 
